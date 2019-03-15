@@ -1,0 +1,4 @@
+flask db migrate -m "new fields in user model"
+flask db upgrade
+
+export FLASK_DEBUG=1
